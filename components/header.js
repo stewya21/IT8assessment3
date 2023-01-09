@@ -37,11 +37,11 @@ class Header extends HTMLElement {
                 Team Members
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Phillip Abboud</a></li>
+                <li><a class="dropdown-item" href="https://phillipabboud.github.io/IntroITReport1/">Phillip Abboud</a></li>
                 <li><a class="dropdown-item" href="#">Stewart Altoft</a></li>
                 <li><a class="dropdown-item" href="#">Samuel Gall</a></li>
-                <li><a class="dropdown-item" href="#">Daniel Gooden</a></li>
-                <li><a class="dropdown-item" href="#">Jamie Virgen</a></li>
+                <li><a class="dropdown-item" href="https://dangoodie.github.io/assignment-1/">Daniel Gooden</a></li>
+                <li><a class="dropdown-item" href="https://jamiev1992.github.io/My_Project/">Jamie Virgen</a></li>
               </ul>
             </li>
             <li class="nav-item">
