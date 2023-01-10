@@ -7,7 +7,7 @@ class Header extends HTMLElement {
     this.innerHTML = `
     <nav class="shadow-sm navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Team Name</a>
+        <a class="navbar-brand display-5" href="index.html">Team IT8</a>
         <button
           class="navbar-toggler"
           type="button"
