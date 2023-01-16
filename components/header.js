@@ -51,8 +51,22 @@ class Header extends HTMLElement {
             <li class="nav-item">
               <a class="nav-link" href="it-work.html">IT Work</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="it-technologies.html">IT Technologies</a>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                IT Technologies
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="autonomous-vehicles.html">Autonomous Vehicles</a></li>
+                <li><a class="dropdown-item" href="cloud-services.html">Cloud Services</a></li>
+                <li><a class="dropdown-item" href="cybersecurity.html">Cybersecurity</a></li>
+                <li><a class="dropdown-item" href="raspberry-pi.html">Raspberry Pi</a></li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="project-idea.html">Project Idea</a>
