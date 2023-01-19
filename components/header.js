@@ -53,7 +53,7 @@ class Header extends HTMLElement {
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle it-tech"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
