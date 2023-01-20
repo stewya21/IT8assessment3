@@ -1,13 +1,16 @@
 .card-img-top {
-    height: 400px;
-    object-fit: cover;
+  height: 400px;
+  object-fit: cover;
 }
 
 .stock-img {
-    height: 200px;
-    object-fit: cover;
+  height: 200px;
+  object-fit: cover;
 }
 
 .it-work-logo {
-    height:100px;
+  height: 100px;
 }
+/* .industry-data-table {
+  border: 1px solid black;
+} */
