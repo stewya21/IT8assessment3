@@ -6,75 +6,79 @@ class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <nav class="shadow-sm navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-      <div class="container-fluid">
-        <a class="navbar-brand display-5" href="index.html">Team IT8</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul id="NAV" class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item dropdown">
+  <div class="container-fluid">
+    <a class="navbar-brand display-5" href="index.html">Team IT8</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul id="NAV" class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Team Members
+          </a>
+          <ul class="dropdown-menu">
+            <li>
               <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+                class="dropdown-item"
+                href="https://phillipabboud.github.io/IntroITReport1/"
+                >Phillip Abboud</a
               >
-                Team Members
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="https://phillipabboud.github.io/IntroITReport1/">Phillip Abboud</a></li>
-                <li><a class="dropdown-item" href="https://stewya21.github.io/COSC2196stewa/">Stewart Altoft</a></li>
-                <li><a class="dropdown-item" href="https://s3994961.github.io/IIT-Assignment1/">Jihn Nyen Chong</a></li>
-                <li><a class="dropdown-item" href="https://dangoodie.github.io/assignment-1/">Daniel Gooden</a></li>
-                <li><a class="dropdown-item" href="https://jamiev1992.github.io/My_Project/">Jamie Virgen</a></li>
-
-              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="industry-data.html">Industry Data</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="it-work.html">IT Work</a>
-            </li>
-            <li class="nav-item dropdown">
+            <li>
               <a
-                class="nav-link dropdown-toggle it-tech"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+                class="dropdown-item"
+                href="https://stewya21.github.io/COSC2196stewa/"
+                >Stewart Altoft</a
               >
-                IT Technologies
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="autonomous-vehicles.html">Autonomous Vehicles</a></li>
-                <li><a class="dropdown-item" href="cloud-services.html">Cloud Services</a></li>
-                <li><a class="dropdown-item" href="cybersecurity.html">Cybersecurity</a></li>
-                <li><a class="dropdown-item" href="raspberry-pi.html">Raspberry Pi</a></li>
-              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="project-idea.html">Project Idea</a>
+            <li>
+              <a
+                class="dropdown-item"
+                href="https://dangoodie.github.io/assignment-1/"
+                >Daniel Gooden</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                href="https://jamiev1992.github.io/My_Project/"
+                >Jamie Virgen</a
+              >
             </li>
           </ul>
-        </div>
-      </div>
-    </nav>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="project-description.html">Project Description</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="skills-jobs.html">Skills & Jobs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="group-reflection.html">Group Reflection</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
     `;
   }
 }
